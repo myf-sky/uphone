@@ -1,0 +1,33 @@
+        .car{
+            width:980px;
+            margin:10px auto;
+			position:relative;
+			top:70px;
+        }
+        .cont{
+            width:100%;
+            position: relative;
+            bottom:100px;
+        }
+        .chenggong{
+            font-size:14px;
+            width:250px;
+            margin:100px auto;
+        }
+        .chenggong h3{
+            height:50px;
+            line-height:50px;
+            padding-left:50px;
+            background:url(../images/duihao.png) 2px center no-repeat;
+            font-size:24px;
+            font-weight: 800;
+            font-family:"微软雅黑";
+        }
+        .zhifu{
+            padding:10px 0 10px 50px;
+            line-height:40px;
+        }
+        .red{ color:#F00;}
+        #u_footer{
+            margin-top:259px;
+        }

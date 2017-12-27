@@ -1,0 +1,92 @@
+    .main{
+      width: 100%;
+    }
+    .login_logo{
+      display: block;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .login_box{
+      width:980px;
+      margin:70px auto;
+      margin-bottom: 180px;
+      box-shadow: 1px 3px 14px #858585;
+    }
+    .login_left{
+      width: 567px;
+      height:348px;
+      float:left;
+    }
+    .login_right{
+      margin-left: 570px;
+      width:405px;
+      height:348px;
+      background:url(../images/loginright.jpg) left top no-repeat;
+    }
+    .login{
+      padding:35px 40px 30px 61px;
+      color:#999;
+     }
+    .login a{
+      color:#999;
+    }
+    .login a:hover{
+      color:#F00;
+    }
+    .login label{
+      display:block;
+      height:20px;
+      line-height:20px;
+    }
+    .login input{
+      margin:0;
+      padding:0;
+      background:none;
+      border:#ccc 1px solid;
+      height:32px;
+      width:300px;
+      padding-left:5px;
+    }
+    .login .login_name{
+      background:url(../images/name.jpg) right center no-repeat;
+    }
+    .login .login_pwd{
+      background:url(../images/pwd.jpg) right center no-repeat;
+    }
+    .login .pwd{
+      height:13px;
+      line-height:13px;
+      margin:30px 0 10px 0;
+    }
+    .login .pwd input{
+      width:13px;
+      height:13px;
+      position:relative;
+      top:2px;
+    }
+    .login .login_sub input{
+      border:none;
+      background:#FF7709;
+      font-size:14px;
+      color:#fff;
+      font-weight:bold;height:40px;
+    }
+    .login h2{
+      font-size:12px;
+      color:#333;
+      height:20px;
+      line-height:20px;
+      font-weight:400;
+      margin:15px 0;
+    }
+    #u_footer iframe{
+      clear:both;
+      width: 100%;
+      height: 220px;
+      position: absolute;
+      bottom:-150px;
+    }
+    #showName,#showPwd{
+        display:none;
+        color:red;
+    }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>登录</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/css.css" rel="stylesheet">
+  <link href="css/u_login.css" rel="stylesheet">
+</head>
+<body>
+  <div class="main">
+    <div class="header top" id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-3">
+            <a class="denglu" href="u_login.html" style="color:#C94E13;">请登录</a>
+            <a href="u_reg.html" >注册</a>
+          </div>
+          <div class="col-xs-9">
+            <ul class="list-inline">
+              <li class="myList"><a href="#">我的订单 </a></li>
+              <li class="shoppingcard"><a href="u_car.html">购物车<span style="color:#C94E13;">3</span></a></li>
+              <li class="shoucangjia"><a href="#">收藏夹</a></li>
+              <li><a href="#">联系客服</a></li>
+              <li><a href="#" class="btn btn-xs language"><b>中文</b></a></li>
+              <li><a href="#" class="btn btn-xs language" ><b>English</b></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="login_logo">
+      <img src="images/logo.png" alt=""/>
+    </div>
+    <div class="login_box">
+      <div class="login_left">
+        <img src="images/login.jpg"/>
+      </div>
+      <div class="login_right">
+        <form class="login">
+          <label>邮箱/用户名/已验证手机</label>
+          <input type="text" class="login_name" name="uname" />
+          <div id="showName">用户名不能为空！</div>
+          <label>密码</label>
+          <input type="password" class="login_pwd" name="upwd" />
+          <div id="showPwd">密码不能为空！</div>
+          <div class="pwd">
+            <input type="checkbox" class="remember"/> 一周内免登陆 <a href="#">忘记密码</a>
+          </div>
+          <div class="login_sub">
+            <input type="button" value=" 登 录 " />
+          </div>
+          <h2>合作伙伴登录：</h2>
+          <img src="images/hezuo.jpg"/>
+        </form>
+      </div>
+    </div>
+    <footer id="u_footer"></footer>
+  </div>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/jquery.cookie.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/u_footer.js"></script>
+  <script src="js/u_login.js"></script>
+</body>
+</html>

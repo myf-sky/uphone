@@ -1,0 +1,217 @@
+    .u_plist{
+      text-align: center;
+    }
+
+    .p-box{
+        margin: 0 auto;
+        width: 972px;
+    }
+    .p-sort{
+           list-style: none;
+           width:672px;
+           position:relative;
+       }
+    .product-box td:first-child{
+        padding:7px 0;
+        border:#CCC 1px solid;
+        width:100px;
+    }
+    .p-box td{
+        padding:7px 0;
+        border:#CCC 1px solid;
+    }
+    .p-box td h3{
+        width:120px;
+        font-weight:400;
+        font-family:"微软雅黑";
+        font-size:12px;
+        color:#999;
+    }
+    .p-sort li{
+        float: left;
+        min-width:105px ;
+        height: 23px;
+        line-height: 23px;
+    }
+    .p-sort li input{
+        position:relative;
+        bottom:-2px;
+        margin-right:3px;
+        display:none;
+    }
+    .p-sort li a{color:#666;}
+    .p-sort li a:hover{color:#F00;}
+    .more-sel{
+        width:200px;
+    }
+    .more-sel button{
+        display:block;
+        width:46px;
+        height:18px;
+        padding-top: 0px;
+        float: left;
+        margin-left: 10px;
+    }
+    .morethan a{
+        display: block;
+        margin-top: 2px;
+    }
+    .morethan a:hover{color:#f00; }
+    .morethan .pless{ display:none;}
+    button.confirm{display: none;}
+    .p-price{
+        width: 42px;
+        height: 20px;
+    }
+    .more-sel .p-confirm{
+        float:right;
+        margin-right: 15px;
+    }
+	.p-body{
+		margin-bottom:80px;
+	}
+    .p-body-select{
+        width:972px;
+        height: 35px;
+        border: 1px solid #ccc;
+        margin: 10px auto;
+        background: #f3f3f3;
+    }
+    .p-body-select li{
+        height:34px;
+        line-height:34px;
+        width:140px;
+        float:left;
+        border-right: 1px solid #ccc;
+        cursor:pointer;
+    }
+    .p-body-select li:first-child{
+        margin-left: 200px;
+        border-left: 1px solid #ccc;
+    }
+    .p-body-select li:hover{
+        background:#BF511C;
+        color:#fff;
+    }
+    .p-lists{
+        width:972px;
+        margin: 5px auto;
+        font-family:"微软雅黑";
+    }
+    .p-product tr td{
+        width:230px;
+        height:360px;
+        box-sizing: border-box;
+        border: 1px solid #d1d1d1;
+        padding:15px 15px 35px 15px;
+        float:left;
+        margin:10px 8px 0 5px;
+        position: relative;
+    }
+    .p-product tr td:hover{
+        border: 1px solid #f60;
+    }
+    .p-detail h3{
+        height:30px;
+        line-height:30px;
+        color:#f00;
+        font-size:16px;
+        font-weight: bold;
+        text-align:left;
+    }
+    .p-detail p{
+        line-height:17px;
+        font-size:12px;
+        font-family:"宋体";
+        color:#666;
+        text-align:left;
+        margin-bottom: 10px;
+    }
+    .p-detail>a{
+        position: absolute;
+        bottom:45px;
+        left:15px;
+    }
+    .p-detail>span{
+        position: absolute;
+        bottom:45px;
+        left:75px;
+    }
+    .p-detail>span,.p-detail>a{
+        display:block;
+        font-size:32px;
+        width:24px;
+        height:24px;
+        line-height:24px;
+        text-align:center;
+        color:#fff;
+        cursor:pointer;
+        background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+        vertical-align:top;
+    }
+    .p-detail>span:hover,.p-detail>a:hover{
+        background:linear-gradient(to bottom,#bbb,#b3b3b3);
+    }
+    .p-detail input{
+        width:25px;
+        height:24px;
+        box-sizing:border-box;
+        border:none;
+        text-align:center;
+        outline:none;
+        margin:0 3px;
+        position: absolute;
+        bottom:45px;
+        left:40px;
+    }
+    .p-detail button{
+        display: block;
+        width: 50%;;
+        height:33px;
+        background:#F6F6F6;
+        cursor: pointer;
+        position: absolute;
+        bottom: 0;
+        border-bottom: none;
+    }
+    .p-shoppingCart{
+        left:0;
+        border-left: none;
+        border-right: none;
+    }
+    .p-shopping{
+        right:0px;
+        border-right: none;
+    }
+    .p-shopping:hover, .p-shoppingCart:hover{
+        color:white;
+        background: #B42703;
+    }
+    /*分页代码*/
+    div.paging{
+        padding:10px 0px;
+        font-size:13px;
+        color:#48b9ef;
+        font-family:arial, helvetica, sans-serif;
+        background-color:#fff;
+        text-align:center;
+        margin-top: 30px;
+    }
+    .paging a{
+        border:#f0f0f0 2px solid;
+        padding:2px 5px;
+        margin:0px 2px;
+        color:black;
+        text-decoration:none;
+        background:#f0f0f0;
+    }
+    .paging a:hover{
+        border:#ff5a00 2px solid;
+        background:#ff6c16;
+        color:#fff;
+    }
+    .paging .current{
+        border:#ff5a00 2px solid;
+        background:#ff6c16;
+        color:#fff;
+    }

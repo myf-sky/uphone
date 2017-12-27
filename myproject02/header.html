@@ -1,0 +1,69 @@
+  <div class="main">
+      <div class="header top" id="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-3">
+              <a class="u_login" href="u_login.html" style="color:#C94E13;">请登录</a>
+              <a href="u_reg.html" class="u_reg">注册</a>
+            </div>
+            <div class="col-xs-9">
+              <ul class="list-inline">
+                <li class="myList"><a href="#">我的订单 </a></li>
+                <li class="shoppingcard"><a href="u_car.html">购物车<span style="color:#C94E13;">3</span></a></li>
+                <li class="shoucangjia"><a href="#">收藏夹</a></li>
+                <li><a href="#">联系客服</a></li>
+                <li><a href="#" class="btn btn-xs language"><b>中文</b></a></li>
+                <li><a href="#" class="btn btn-xs language" ><b>English</b></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="header_body">
+      <a href="#" class="header_logo"><img src="images/logo.png" alt=""/></a>
+      <form action="#" class="header_search">
+        <input type="text" placeholder="请输入您要查找的宝贝" class="h_search">
+        <input type="image" src="images/sub.jpg" class="u_search">
+        <a href="#"><img src="images/dingdan.jpg" alt=""></a>
+        <a href="#"><img src="images/gouwuche.jpg" alt=""></a>
+      </form>
+      <ul class="list-inline list_phone">
+        <li>iphone</li>
+        <li>oppo</li>
+        <li>华为</li>
+        <li>三星</li>
+        <li>荣耀</li>
+        <li>中兴</li>
+      </ul>
+    </div>
+    <div class="header_footer">
+      <ul class="list-inline">
+        <li><a href="u_index.html">首页</a></li>
+        <li><a href="u_sell.html">官网推荐</a></li>
+        <li><a href="#">卖家</a></li>
+        <li><a href="#">会员中心</a></li>
+        <li><a href="#">悬赏榜</a></li>
+        <li><a href="#">论坛</a></li>
+        <li><a href="#">帮助</a></li>
+      </ul>
+    </div>
+  </div>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/jquery.cookie.js"></script>
+  <script>
+    var kw='';
+    $('.search').on('change',function (e) {
+        e.preventDefault();
+        kw=$(this).val();
+    });
+    //搜索关键字跳转至list页面
+    $('.u_search').on('click',function (e) {
+        e.preventDefault();
+        console.log(kw);
+        var p_url='u_plist.html';
+        if(kw){
+            p_url+='?kw='+kw;
+        }
+        location.href=p_url;
+    });
+  </script>

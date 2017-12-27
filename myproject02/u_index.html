@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>商城首页</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/css.css" rel="stylesheet">
+  <link href="css/u_index.css" rel="stylesheet">
+</head>
+<body>
+  <div class="main">
+    <div class="header top" id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-3">
+            <a class="denglu" href="u_login.html" style="color:#C94E13;">请登录</a>
+            <a href="u_reg.html" >注册</a>
+          </div>
+          <div class="col-xs-9">
+            <ul class="list-inline">
+              <li class="myList"><a href="#">我的订单 </a></li>
+              <li class="shoppingcard"><a href="u_car.html">购物车<span style="color:#C94E13;">3</span></a></li>
+              <li class="shoucangjia"><a href="#">收藏夹</a></li>
+              <li><a href="#">联系客服</a></li>
+              <li><a href="#" class="btn btn-xs language"><b>中文</b></a></li>
+              <li><a href="#" class="btn btn-xs language" ><b>English</b></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="index_list">
+      <a href="#"><img src="images/phone.png" /></a>
+    </div>
+    <footer id="u_footer"></footer>
+  </div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/u_index.js"></script>
+<script src="js/u_footer.js"></script>
+  <script>
+      $('.index_list>a>img').on('click',function () {
+        location.href='u_sell.html';
+      })
+  </script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+		.main>img{
+			display:block;
+			margin:0 auto;
+		}
+        .buyinfo{
+            width:972px;
+            margin:10px auto 80px;
+        }
+        .buyDtlLeft{
+            width:365px;
+            float:left;
+        }
+        .buyimgBig{
+            overflow:hidden;
+            border:#CCC 1px solid;
+        }
+        .buyimgBig img{ display:block;}
+        .buyimgsmall{
+            text-align:center;
+            padding:7px 0;
+        }
+        .buyimgsmall li{
+            width:50px;
+            height:50px;
+            border:#CCC 1px solid;
+            display:inline-block;
+            margin-left:3px;
+            cursor:pointer;
+        }
+        .buyDtlRight{
+            width:590px;
+            float:right;
+        }
+        .buyDtlRight h3{
+            font-size:16px;
+            height:25px;
+            line-height:25px;
+        }
+        .buyDtlRight h4{
+            font-size:14px;
+            color:#F00;
+            line-height:19px;
+        }
+        .buyDtlRight h5{
+            height:45px;
+            line-height:45px;
+            font-size:12px;
+            font-weight:400;
+            background:#FCEAE3;
+            color:#666;
+            padding-left:15px;
+            margin:5px 0;
+        }
+        .buyDtlRight h5 strong{
+            color:#f00;
+            font-size:24px;
+            font-family:Arial, Helvetica, sans-serif
+        }
+        .buyDtlRight h5 span{
+            color:#f00;
+            font-size:14px;
+        }
+        .buyTable th{
+            width:70px;
+            padding:7px 0;
+            font-weight:400;
+            color:#999;
+            text-align:left;
+        }
+        .buyji li{
+            display:inline-block;
+            padding:3px 10px;
+            border:#CCC 1px solid;
+            cursor:pointer;
+            margin-right:2px;
+        }
+        .p_number{
+            width:480px;
+            height:30px;
+        }
+        .p_number .f_l{float:left;}
+        .p_number .add_chose{width:105px;}
+        .p_number .add_chose a{
+            float:left;
+            margin:5px 0 0 0;
+            display:block;
+            width:15px;
+            height:15px;
+            line-height:99px;
+            overflow:hidden;
+            background:url(../images/reduce-add.gif) no-repeat;}
+        .p_number .add_chose a.reduce{background-position:0 0;}
+        .p_number .add_chose a.reduce:hover{background-position:0 -16px;}
+        .p_number .add_chose a.add{background-position:-16px 0;}
+        .p_number .add_chose a.add:hover{background-position:-16px -16px;}
+        .p_number .add_chose .text{
+            float:left;
+            margin:0 5px;
+            display:inline;
+            border:solid 1px #ccc;
+            padding:4px 3px 4px 8px;
+            width:40px;
+            line-height:18px;
+            font-size:14px;
+            color:#990000;
+            font-weight:800;
+        }
+        .p_number .buy{line-height:2px;}
+        .p_number .buy .total-font{font-family:Arial;font-size:26px;}
+        .p_number .buy .jifen b{margin:0 3px;}
+        .goumai{padding:15px 0;}
+        .goumai a{
+            display:inline-block;
+            font-family:"微软雅黑";
+            font-size:16px;
+        }
+        .buy-gou{
+            width:178px;
+            height:35px;
+            background:#FFEDED;
+            border:#C40000 1px solid;
+            text-align:center;
+            line-height:35px;
+            color:#C40000;
+        }
+        .buy-gou:hover{
+            background:#C40000;
+            color:#fff;
+        }
+        .buy-mai{
+            width:178px;
+            height:35px;
+            text-align:center;
+            line-height:35px;
+            color:#C40000;
+            background:#C40000;
+            border:#C40000 1px solid;
+            color:#fff;
+        }
+        .buy-mai:hover{
+            background:#900;
+            color:#fff;
+        }
+        .buydel2Eq{
+            border-top:#255CA2 2px solid;
+            height:35px;
+            background:#F2F2F2;
+        }
+        .buydel2Eq li{
+            height:35px;
+            width:125px;
+            text-align:center;
+            line-height:35px;
+            font-size:15px;
+            font-weight:bold;
+            float:left;
+            border-right:#ddd 1px solid;
+            font-family:"微软雅黑";
+            cursor:pointer;
+        }
+        .buydlList{
+            min-height:200px;
+            height: auto !important;
+            display:block;
+        }
+        .Ptable th{height:30px;}
+        .Ptable td{
+            border:#ddd 1px solid;
+            padding:7px 5px;
+        }

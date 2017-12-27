@@ -1,0 +1,145 @@
+@charset "utf-8";
+/*格式化*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, select{margin: 0;padding: 0;border: 0;}
+table{ border-collapse:collapse;}
+body{font-size:12px;color:#333;}
+img,a{border:0; text-decoration:none;}
+ol, ul {list-style: none; }
+.clears{ clear:both;}
+a{color:#333;}
+a:hover{color:#F00;text-decoration:none;}
+#u_footer{
+    clear:both;
+	width: 100%;
+    height: 220px;
+    position: relative;
+    bottom:0;
+}
+#u_header{
+    width:100%;
+    height:226px;
+}
+.top {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #EEE;
+    background: #F5F5F5;
+}
+/*header样式*/
+.top a{margin-right:10px;text-decoration:none;}
+.denglu{margin-left:70px;}
+.myList{margin-left: 300px;}
+.language{
+border-radius: 3px;
+background: #e8e8e8;
+}
+.language:hover{
+background: #f60;
+color:#fff;
+}
+.shoppingcard{  background: url("../images/gouwu1.jpg") 3px 11px no-repeat;  }
+.shoppingcard>a{margin-left: 12px;}
+.shoucangjia{background: url("../images/shoucang.jpg")3px 11px no-repeat;}
+.shoucangjia>a{margin-left: 12px;}
+.header_body{
+width:100%;
+height:95px;
+margin:10px auto;
+}
+.header_logo{
+float: left;
+margin-left: 175px;
+}
+.header_search a{
+float: left;
+margin-top: 20px;
+margin-left: 5px;
+}
+.header_search input{
+float: left;
+margin-top: 20px;
+margin-left: 5px;
+}
+.h_search{
+width:300px;
+height:32px;
+margin-left: 15px;
+margin-top: 20px;
+float: left;
+}
+.header_body .list-inline{
+font-size: 15px;
+color: #999;
+clear:left;
+margin-left: 485px;
+}
+.header_footer .list-inline li{
+font-size: 17px;
+color: #fff;
+margin:13px auto;
+margin-right:70px;
+}
+.header_footer .list-inline li a{
+font-size: 16px;
+color: #fff;
+font-weight:bold;
+}
+.header_footer{
+height: 51px;
+width:100%;
+text-align: center;
+background: url("../images/navgb.jpg") repeat;
+}
+
+/*footer样式*/
+.footer{
+    width: 100%;
+    height: 200px;
+    padding: 5px 0 20px 40px;
+    color: #A4ABA4;
+    background: #222;
+}
+.footer_left>h3{
+    height:40px;
+    line-height:40px;
+    color:#989898;
+    font-size:28px;}
+.footer_left>img{
+    margin:10px 0 5px 0
+}
+.foot{
+    width:980px;
+    margin:0 auto;
+}
+.footer_left{
+    float:left;
+    margin-right: 100px;
+}
+.ftkefu{
+    font-size:14px;
+    line-height:30px;
+    margin-bottom:10px;
+}
+.ft_title td{
+    height:30px;
+    line-height:20px;
+    font-weight:bold;
+    font-size:16px;
+    padding:25px 60px 20px 0;
+}
+.footer_right li{
+    line-height:30px;
+}
+.footer_right li>a{
+    color:#989898;
+    text-decoration:none;
+    display: block;
+    text-align: left;
+}
+.footer_right li>a:hover {
+    color: #fff;
+}
+
